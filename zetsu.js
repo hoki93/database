@@ -789,6 +789,7 @@ bot.action("menu_controls", async (ctx) => {
 𖤐/locklist
 𖤐/lockall
 𖤐/unlockall
+𖤐/update [autoupdate]
 ───────────────────────────
 \`\`\``;
     const keyboard = { inline_keyboard: [[{ text: "🔙 BACK", callback_data: "menu_back" }]] };
